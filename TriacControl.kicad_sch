@@ -1584,7 +1584,7 @@
     (uuid fd929bf6-89fb-4208-95ef-f328fbe97e9c)
   )
 
-  (text "R26 is 2k2 for 120 VAC\nR26 is 1k for 220 VAC" (at 151.765 104.14 0)
+  (text "R26 is 1k for 120 VAC\nR26 is 2k2 for 220 VAC" (at 151.765 104.14 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 232edbeb-3dcc-4317-a71d-02826ac0a376)
   )
@@ -1910,7 +1910,7 @@
     (property "Reference" "U1" (at 118.11 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "MOC3020M" (at 118.11 120.65 0)
+    (property "Value" "MOC3023" (at 118.11 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_DIP:DIP-6_W7.62mm_Socket" (at 113.03 132.08 0)
