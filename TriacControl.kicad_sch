@@ -2259,7 +2259,7 @@
     (property "Reference" "Q1" (at 178.435 125.7808 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BT136-600" (at 178.435 123.2408 0)
+    (property "Value" "BTA16-600" (at 178.435 123.2408 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 179.07 123.19 0)
