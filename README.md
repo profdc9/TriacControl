@@ -14,6 +14,6 @@ control voltage.
 
 ![TriacControl](Pics/TriacControl-picture.jpg)
 
-![TriacControl](Pics/TriacControl.png)
+![TriacControl](TriacControl.png)
 
 
