@@ -10,7 +10,8 @@ the voltage/PWM signal varies the motor speed control.  The minimum control volt
 a 100 ohm resistor and a 22 uF capacitor, a 5 V control uses a 470 ohm resistor and a 47 uF capacitor, 12 volts uses a 2k2 resistor and 47 uF
 capacitor, and 24 V uses a 4k7 resistor an 47 uF capacitor.  You may have to experiment to get it to put the control voltage into the required
 range.  If you have an incandescent light bulb, you can use that as the load rather than the motor to see how bright it gets as you vary the
-control voltage.
+control voltage.  Three resistors and three capacitors may be placed on the board and selected using jumpers so that soldering need not be performed
+to try different values.
 
 ![TriacControl](Pics/TriacControl-picture.jpg)
 
