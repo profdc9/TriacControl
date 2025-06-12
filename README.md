@@ -32,6 +32,7 @@ R = 2 Sqrt (L/C)
 Therefore:
 
 R = 4 L (dV/dt max) / ((1-1/e) Vmax) = 6.33 L (dV/dt max) / (Vmax)
+
 C = L ((1-1/e) Vmax / (2 L (dV/dt max)))^2 = 0.1 L ( Vmax / (L (dV/dt max)) )^2
 
 For example for MOC3023, (dV/dt max) is 10 V/us, say it's 1 V/us to be on the safe side.  For 120 VAC, (Vmax) = 170 V.
