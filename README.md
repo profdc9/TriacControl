@@ -17,4 +17,32 @@ to try different values.
 
 ![TriacControl](TriacControl.png)
 
+To size the snubber consisting of the capacitance C = C1 and resistance R = R9 || R10 || R11:
 
+The optotriac generally has a maximum dV/dt from the datasheet called (dV/dt max), and the maximum voltage is (Vmax).
+
+The time constant of the snubber network is given by:
+
+RC = (1-1/e) (Vmax) / (dV/dt max)
+
+For the network to be critically damped
+
+R = 2 Sqrt (L/C)
+
+Therefore:
+
+R = 4 L (dV/dt max) / ((1-1/e) Vmax) = 6.33 L (dV/dt max) / (Vmax)
+C = L ((1-1/e) Vmax / (2 L (dV/dt max)))^2 = 0.1 L ( Vmax / (L (dV/dt max)) )^2
+
+For example for MOC3023, (dV/dt max) is 10 V/us, say it's 1 V/us to be on the safe side.  For 120 VAC, (Vmax) = 170 V.
+The motor is assumed to have L = 400 mH inductance.
+
+Then: R = 15 kohm and C = 7 nF.  
+
+Increasing the C (making it less damped), for example C = 10 nF, then R = 10 kOhm.
+
+
+
+Sources :
+* https://www.onsemi.com/pub/Collateral/AN1048-D.PDF
+* https://www.thierry-lequeu.fr/data/AN437.pdf
